@@ -8,13 +8,16 @@ This is a modified version of [xarly06's CU65 guide](https://github.com/xarly06/
 
 ### Software options
 
-There are two ways to flash your keyboard:
+There are three ways to flash your keyboard:
 1) **With [QMK Toolbox](#qmk-toolbox).**
 2) **With [VIA](#via).** I have had no luck with this option as it doesn't detect my keyboard 😢. Might have something to do with me using Linux... Supossedly _"you will need to flash it only once and you can change the keyboard layout without flashing it"_.
+3) **With [QMK via command line](https://docs.qmk.fm/newbs).** _Very Linux, much Linux._
 
 ### Creating layouts
 
 You can make your own layout with [QMK Configurator](https://config.qmk.fm/#/) and save it as a `.json` file. You can later on import it to make changes or create new layouts. But beware! You **cannot** flash the `.json`! **You need your layout as an `.hex` file!** To create it, compile your layout on [QMK Configurator](https://config.qmk.fm/#/) and click on `Firmware` to download it.
+
+[You can also follow QMK instructions to do it locally via your command line.](https://docs.qmk.fm/newbs)
 
 ## QMK Toolbox
 
